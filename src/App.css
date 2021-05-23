@@ -1,0 +1,11 @@
+.App{
+  background: black;
+  text-align: center;
+  min-height: 100vh;
+}
+
+
+.font{
+  font-family: 'Reggae One', cursive;
+  color: aliceblue;
+}
