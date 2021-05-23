@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import SignOut from "./SignOut";
-import firebase from "../Config/firebaseConfig";
-import auth from "../Config/firebaseConfig";
+import firebase from "./Config/Firebase";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./ChatRoom.css";
 import { Button, Form, FormGroup, Label} from "reactstrap";

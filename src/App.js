@@ -1,10 +1,9 @@
 import "./App.css";
 import SignIn from "./Components/SignIn";
-import firebase from "firebase";
 import "firebase/auth";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useEffect } from "react";
-import { auth } from "./Config/firebaseConfig";
+import firebase, { auth } from "./Components/Config/Firebase"
 import ChatRoom from "./Components/ChatRoom";
 import { useAuthState } from "react-firebase-hooks/auth";
 import SignOut from "./Components/SignOut";
