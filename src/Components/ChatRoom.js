@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect } from "react";
-import SignOut from "./SignOut";
 import firebase from "./Config/Firebase";
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -21,7 +20,7 @@ export default function ChatRoom() {
       setData(data.docs.map((doc) => doc.data()));
     };
     fetchData();
-  }, [Data]);
+  }, [db]);
 
   const onSubmit = async (e) => {
     e.preventDefault();
