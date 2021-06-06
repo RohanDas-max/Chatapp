@@ -16,6 +16,7 @@ export default function SignIn() {
       })
       .catch((error) => {
         console.log("No user is Signed In");
+      console.log(error);
       });
   };
 
